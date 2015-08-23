@@ -69,3 +69,4 @@ final_data <- select(data, -activity_code)
 
 set5 <- final_data %>% group_by(activity_label,subject) %>% summarise_each(funs(mean))
 
+set5
